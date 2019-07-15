@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myprofileactivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/profiledescription"
+        android:src="@drawable/constantin" />
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_marginBottom="-40dp"
+        android:gravity="center"
+        android:text="@string/profiledescription" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAcl"
+        android:layout_marginBottom="-25dp"
+        android:layout_alignBottom="@id/textNom"/>
+
+    <TextView
+        android:id="@+id/texttrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/divider2"
+        android:layout_marginBottom="-32dp"
+        android:layout_marginLeft="20dp"
+        android:text="Track : Android" />
+
+    <TextView
+        android:id="@+id/textcountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/texttrack"
+        android:layout_marginBottom="-32dp"
+        android:layout_marginLeft="20dp"
+        android:text="Country : Burkina Faso" />
+
+    <TextView
+        android:id="@+id/textemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textcountry"
+        android:layout_marginBottom="-32dp"
+        android:layout_marginLeft="20dp"
+        android:text="Country : panda.constantin@gmail.com" />
+
+    <TextView
+        android:id="@+id/textphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textemail"
+        android:layout_marginBottom="-32dp"
+        android:layout_marginLeft="20dp"
+        android:text="Phone number : 0022670157018" />
+
+    <TextView
+        android:id="@+id/textslackprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textphone"
+        android:layout_marginBottom="-32dp"
+        android:layout_marginLeft="20dp"
+        android:text="Slack Username : @Constantin Drabo" />
+
+
+</RelativeLayout>

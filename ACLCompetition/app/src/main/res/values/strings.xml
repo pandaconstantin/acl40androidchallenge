@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ACL phase 1</string>
+    <string name="applicationtitle">Welcome to ACL 4.0</string>
+    <string name="aboutacl">About ACL</string>
+    <string name="profile">My profile</string>
+    <string name="profiledescription">Constantin Drabo</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amarante</item>
+        <item>@font/andada</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/libre_baskerville</item>
+        <item>@font/martel_sans_extralight</item>
+        <item>@font/pt_serif_caption</item>
+    </array>
+</resources>
